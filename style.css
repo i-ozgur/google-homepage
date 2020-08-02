@@ -1,0 +1,45 @@
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15em;
+    width: 15em;
+
+}
+
+#search {
+    display: flex;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    height: 34px;
+    border-radius: 20px;
+}
+
+li a {
+    display: block;
+    text-align: right;
+    color: rgb(4, 6, 24);
+    padding: 4px 4px;
+    text-decoration: khaki;
+}
+
+li {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow: hidden;
+}
+
+#apps {
+    cursor: pointer;
+    background:url(https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_apps_48px-512.png) 0px no-repeat;
+    background-size: 528px 68px;
+    display: inline-block;
+}
