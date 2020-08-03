@@ -2,9 +2,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15em;
+    margin-top: 0.5%;
     width: 15em;
-
 }
 
 #search {
@@ -17,19 +16,19 @@
     border-radius: 20px;
 }
 
-li a {
+#topbar a {
     display: block;
     text-align: right;
-    color: rgb(4, 6, 24);
+    color: rgb(4, 6, 31);
     padding: 4px 4px;
     text-decoration: khaki;
 }
 
-li {
+#topbar li {
     float: right;
 }
 
-ul {
+#topbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -37,9 +36,92 @@ ul {
     overflow: hidden;
 }
 
+#midbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+#midbar a {
+    color: rgba(29, 28, 28, 0.7);
+    text-decoration: khaki;
+}
+
+#leftbot {
+    list-style-type: none;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+#leftbot a {
+    color: rgba(29, 28, 28, 0.7);
+    text-decoration: khaki;
+    margin: 0.5em;
+}
+
+#rightbot {
+    list-style-type: none;
+    text-decoration: khaki;
+    text-align: right;
+    position: fixed;
+    bottom: 0.5em;
+    right: 0.5em;
+}
+
+#rightbot li {
+    padding: 5px;
+    float: right;
+    background-color: lightgray;
+}
+
+#rightbot a {
+    color: rgba(26, 26, 26, 0.3);
+    text-decoration: khaki;
+}
+
 #apps {
-    cursor: pointer;
-    background:url(https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_apps_48px-512.png) 0px no-repeat;
-    background-size: 528px 68px;
-    display: inline-block;
+    width: 2em;
+}
+
+footer {
+    position: fixed;
+    padding: 0em 0em 1em 0em;
+    background-color: lightgray;
+    left: 0;
+    bottom: 0;
+    border-color: black;
+}
+
+footer ul {
+    list-style-type: none;
+    background-color: lightgray;
+    overflow: hidden;
+}
+
+footer li {
+    float: left;
+    left: 0;
+}
+
+footer li a {
+    display: block;
+    text-align: center;
+}
+
+#say {
+    text-decoration: none;
+    background-color: #333;
+}
+
+#say a {
+    display: block;
+    float: left;
+    margin: 0.5em;
+    text-decoration: khaki;
+    color: black;
+}
+
+#say {
+    list-style-type: none;
 }
