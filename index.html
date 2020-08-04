@@ -1,45 +1,60 @@
 <!DOCTYPE html>
 <html>
-<header>
+
+<head>
     <link rel="stylesheet" type="text/css" href="style.css">
-</header>
+</head>
 
 <body>
-    <ul id="topbar">
-        <li><a href=""><img id="apps"
-                    src="https://www.oceanport.k12.nj.us/cms/lib/NJ01912851/Centricity/Domain/152/google%20squares_318-10893.jpg"></a>
-        </li>
-        <li><a href="#Images">Images</a></li>
-        <li><a href="#Gmail">Gmail</a></li>
+    <a href="#google"><img id="logo"
+            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+            alt="Google Logo"></a>
 
-        <li><a href="#Google Account"></a></li>
-    </ul>
-
-    <footer>
+    <div class="search">
+        <img id="searchicon" src="https://static.thenounproject.com/png/78772-200.png" alt="search icon">
+        <img id="voiceicon"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png"
+            alt="voice icon">
+        <input id="searchbar" type="search" name="search">
+    </div>
+    <div id="buttons">
+        <button style="margin-left: 61.5em; margin-top:2em;" type="button">Google Search</button>
+        <button>I'm Feeling Lucky</button>
+    </div>
+    <div>
+        <p id="offer" style="font-size: 14px;">Google offered in: <a style="text-decoration:khaki; font-size:14px;"
+                href="#">Turkish</a></p>
+    </div>
+    <div id="topnav">
         <ul>
-            <li id="midbar"><a href="#Turkey">Turkey</a> </li>
+            <li><a href="#Gmail">Gmail</a></li>
+            <li><a href="#Images">Images</a></li>
+            <li style=" margin-top:4px"><a href="#Google Apps"><img
+                        style="display:inline-block; margin-top:30px; width:20px;"
+                        src="https://static.thenounproject.com/png/3052146-200.png"></a></li>
+            <li style="margin-right: 20px;"><button
+                    style="font-weight: bold; font-size: 12px; width: 75px; height:30px; color:white; background-color: blue;">Sign
+                    in</button></li>
         </ul>
-    <ul>
-        <div id="leftbot">
+    </div>
+    <div id="bottomnav">
+        <ul id="trbar">
+            <li><a href="#Turkey">Turkey</a></li>
+        </ul>
+        <ul>
             <li><a href="#Advertising">Advertising</a></li>
             <li><a href="#Business">Business</a></li>
             <li><a href="#About">About</a></li>
-            <li><a href="#HowSearchWorks">How Search Works</a></li>
-        </div>
-        <div id="rightbot">
-            <li><a href="#Privacy">Privacy</a></li>
-            <li><a href="#Terms">Terms</a></li>
-            <li><a href="#Setting">Settings</a></li>
-        </div>
-    </ul>
-</footer>
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-        alt="Fancy Google Logo" id="logo">
-    <form>
-        <label for="search">
-            <input id="search">
-        </label>
-    </form>
+            <li><a href="#How Search Works">How Search Works</a></li>
+            <div id="botright">
+                <li><a href="#Privacy">Privacy</a></li>
+                <li><a href="#Terms">Terms</a></li>
+                <li><a href="#Settings">Settings</a></li>
+
+            </div>
+        </ul>
+
+    </div>
 </body>
 
 </html>
